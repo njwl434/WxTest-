@@ -1,0 +1,32 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [
+      {
+      "pagePath": "pages/index/index",
+      "text": "小程序入门"
+    }, 
+    {
+      "pagePath": "pages/logs/logs",
+      "text": "测试"
+    },
+        {
+          "pagePath": "pages/logs/logs",
+          "text": "测试"
+        },
+            {
+              "pagePath": "pages/logs/logs",
+              "text": "测试"
+            }
+    ]
+  }
+}
