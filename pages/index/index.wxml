@@ -10,4 +10,8 @@
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
   </view>
+  <view class='me'>
+  <text class='me'>{{ceshi}}</text>
+  <button bindtap='clickMe'>点我</button>
+   </view>
 </view>

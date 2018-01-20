@@ -5,9 +5,18 @@ const app = getApp()
 Page({
   data: {
     motto: 'Hello World',
+    ceshi:"武梁啊",
     userInfo: {},
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo')
+  },
+  clickMe: function () {
+    wx.navigateTo({
+      url: 'pages/me/me',
+      success: function(res) {},
+      fail: function(res) {},
+      complete: function(res) {},
+    })
   },
   //事件处理函数
   bindViewTap: function() {
